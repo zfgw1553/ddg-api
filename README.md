@@ -1,4 +1,4 @@
-# duckduckgo-api
+# ddg-api
 
 ## Use vercel
 [https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3](https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3)
@@ -34,7 +34,7 @@
 ###use docker
 
 ```
-docker run -p 8000:8000 binjie09/duckduckgo-api
+docker run -p 8000:8000 gosuto/ddg-api
 ```
 
 then get `http://localhost:8000/search?q=啊对对对是什么梗&max_results=3`
@@ -59,8 +59,8 @@ then get `http://localhost:8000/search?q=啊对对对是什么梗&max_results=3`
 ```
 ### self host
 ```bash
-git clone https://github.com/binjie09/duckduckgo-api.git
-cd duckduckgo-api
+git clone https://github.com/Hk-Gosuto/ddg-api.git
+cd ddg-api
 python3 -m venv myenv && source myenv/bin/activate && pip install -r requirements.txt
 gunicorn -b 0.0.0.0:8000 app:app
 ```
