@@ -31,7 +31,7 @@
 </details>
 
 ## Self host
-###use docker
+### use docker
 
 ```
 docker run -p 8000:8000 gosuto/ddg-api
