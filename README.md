@@ -7,7 +7,7 @@
 
 可点下方按钮部署到自己的Vercel
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/binjie09/duckduckgo-api)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Hk-Gosuto/ddg-api)
 
 <details>
  <summary>设置 Vercel 的指导</summary>
