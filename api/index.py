@@ -7,7 +7,7 @@ app = Flask(__name__)
 def search():  # put application's code here
     keywords = request.args.get('q')
     print(request.args.get('max_results'))
-    max_results = int(request.args.get('max_results') or "4")
+    max_results = int(request.args.get('max_results') or "6")
     results = []
     from itertools import islice
     with DDGS() as ddgs:
